@@ -1,0 +1,16 @@
+$TTL    86400
+@       IN      SOA     nathan.telkom.sch. admin.nathan.telkom.sch. (
+                2018092501      ;Serial
+                3600            ;Refresh
+                1800            ;Retry
+                604800          ;Expire
+                86400           ;Minimum TTL
+)
+ 
+        IN      NS      ns1.nathan.telkom.sch.
+        IN      NS      ns2.nathan.telkom.sch.
+@       IN      A       192.168.56.50
+ns1     IN      A       192.168.56.50
+ns2     IN      A       192.168.56.50
+50      IN      PTR     nathan.telkom.sch
+50      IN      PTR     blog.nathan.telkom.sch
